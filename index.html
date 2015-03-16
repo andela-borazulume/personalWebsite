@@ -3,9 +3,10 @@
 
 <head>
   <title>My Portfolio</title>
-  <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/portfolio.css">
   <link rel='stylesheet' href='/bower_components/angular-material/angular-material.css'>
+  <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
   <script src='/bower_components/angular/angular.js'></script>
   <script src='/bower_components/angular-route/angular-route.min.js'></script>
   <script src='/bower_components/angular-animate/angular-animate.js'></script>
@@ -19,46 +20,58 @@
 </head>
 
 <body ng-app='myPortfolio'>
+  <div style="height:100%;" ng-controller="portfolioController">
+      <md-sidenav class="md-sidenav-left md-whiteframe-z2 small-nav" md-component-id="left">
 
-  <div layout="column" style="height:100%;">
-    <section layout="row" flex>
-      <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
-        <!-- <md-toolbar class="md-theme-red">
-          <h1 class="md-toolbar-tools" layout="column" layout-align="space-around end">Portfolio</h1>
-        </md-toolbar> -->
-      		<br>
-      		<br>
-      		<br>
-      		<br>
-      		<br>
-      		<br>
-          <p class='text' hide-md show-gt-md>
-            <a href='#/home' layout="column" layout-align="space-between center">Home</a>
-          </p>
-          <p class='text' id='change'>
-            <a href="#/portfolio" layout="column" layout-align="space-between center">Portfolio</a>
-          </p>
-          <p class='text'>
-            <a href="#/about" layout="column" layout-align="space-between center">About</a>
-          </p>
-          <p class='text'>
-            <a href="#/contact" layout="column" layout-align="space-between center">Contact</a>
-          </p>
-   
+        <span ng-click="toggleSidenav()" layout="row" layout-align="end start">
+          <i class="fa fa-angle-double-left fa-2x"></i>
+        </span>
+
+        <span hide-md show-gt-md layout="row" layout-align="center center" class="nav-item">
+          <a href='#/home'></a>
+          <i class="fa fa-home fa-3x"></i>
+          <md-tooltip md-direction="right">
+            Home
+          </md-tooltip>
+        </span>
+
+        <a hide-md show-gt-md layout="row" layout-align="center center" class="nav-item"href='#/portfolio'>
+          
+          <i class="fa fa-paint-brush fa-3x"></i>
+          <md-tooltip md-direction="right">
+            Portfolio
+          </md-tooltip>
+        </a>
+
+        <a hide-md show-gt-md layout="row" layout-align="center center" class="nav-item" href='#/about'>
+          <i class="fa fa-user fa-3x"></i>
+          <md-tooltip md-direction="right">
+            About
+          </md-tooltip>
+        </a>
+
+        <span hide-md show-gt-md layout="row" layout-align="center center" class="nav-item">
+          <a href='#/contact'></a>
+          <i class="fa fa-phone fa-3x"></i>
+          <md-tooltip md-direction="right">
+            Contact
+          </md-tooltip>
+        </span>
+
       </md-sidenav>
       <md-content flex class="md-padding bg">
+        <span ng-click="toggleSidenav()">
+          <i class="fa fa-bars fa-2x"></i>
+          <md-tooltip md-direction="bottom">
+            Menu
+          </md-tooltip>
+        </span>
         <div layout="column" layout-fill layout-align="top center">
-          <div ng-view>
-          </div>
+
+        </div>
+        <div ng-view>
         </div>
       </md-content>
-    </section>
-  </div>
-
-
-
-
-
   </div>
 </body>
 

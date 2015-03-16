@@ -1,28 +1,19 @@
 angular.module('myPortfolio').
-  // myController.controller('homeController', ['$scope', function($scope) {
+controller('portfolioController', ['$scope', 'portfolioFactory', '$mdSidenav',  function($scope, portfolioFactory, $mdSidenav) {
+  $scope.isNavOpen = true;
 
+  $scope.toggleSidenav = function() {
+  	$mdSidenav('left').toggle();
+  };
 
-// }]);
+	$scope.init = function() {
+	  portfolioFactory.getResponse(function(data) {
+	  	console.log(data.data);
+	    $scope.projects = data.data;
+	  });
+	};
 
-
-// myController.controller('aboutController', ['$scope', function($scope) {
-
-
-// }]);
-
-controller('portfolioController', ['$scope', 'portfolioFactory', function($scope, portfolioFactory) {
-  portfolioFactory.getResponse(function(data) {
-  	console.log(data.data);
-    $scope.projects = data.data;
-  });
-
-
-
+	$scope.init();
 
 }]);
 
-// myController.controller('contactController', ['$scope', function($scope) {
-
-
-
-// }]);

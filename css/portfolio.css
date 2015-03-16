@@ -1,32 +1,61 @@
-
-
-.img{
-	height: 150px;
-	/*width: 50px;*/
+/********************** native elements ***********************/
+i{
+	color: white;
+	padding: 10px;
 }
-#card{
-	height: 100px;
+
+i:hover{
+	cursor: pointer;
 }
+
+/********************* classes ****************************/
 
 .bg {
 	background: url('/images/background6.jpeg');
 	background-size: cover;
 }
 
-#home  {
+.card {
+	min-height: 460px;
+}
+
+.content{
+	height: 70px;
+}
+
+.home  {
 	color: #ffffff;
 	text-transform: capitalize;
 	font-size: 50px;
 	margin: 0 auto;
-	font-family: 'Alfa Slab One', cursive;
+	font-family: 'Karla', sans-serif;
 }
-#change {
-	color: #ffffff;
+
+.home p{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 0;
+}
+
+.round-img{
+	height: 150px;
+	width: 150px;
+	border-radius: 75px;
 }
 
 .md-sidenav-left{
 	background: url('/images/background2.jpeg');
 	background-size: cover;
+}
+
+.nav-item {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.small-nav {
+	min-width: 100px;
+	max-width: 100px;
 }
 
 .text a{
@@ -36,6 +65,15 @@
 .text a:link {
     text-decoration: none;
 }
+
+
+/*********************** ids *****************************/
+
+#change {
+	color: #ffffff;
+}
+
+
 
 #test{
 	height: 100%;
@@ -50,6 +88,7 @@
 	background: #424242;
 		margin-top: -15px;
 }
+
 #pFirst{
 	padding-left: 20px;
 	padding-top: 133px;
@@ -114,5 +153,3 @@
 #contact2 {
 	background-color: #424242;
 }
-
-
