@@ -11,7 +11,7 @@ i:hover{
 /********************* classes ****************************/
 
 .bg {
-	background: url('/images/background6.jpeg');
+	background: url('../images/background6.jpeg');
 	background-size: cover;
 }
 
@@ -44,7 +44,7 @@ i:hover{
 }
 
 .md-sidenav-left{
-	background: url('/images/background2.jpeg');
+	background: url('../images/background2.jpeg');
 	background-size: cover;
 }
 

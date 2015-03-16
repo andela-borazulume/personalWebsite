@@ -6,7 +6,7 @@ factory('portfolioFactory', ['$http', function($http) {
         load(data);
 
       }, function(error) {
-        console.log(error);
+        // console.log(error);
 
       });
 

@@ -5,13 +5,13 @@
   <title>My Portfolio</title>
   <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/portfolio.css">
-  <link rel='stylesheet' href='/bower_components/angular-material/angular-material.css'>
-  <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
-  <script src='/bower_components/angular/angular.js'></script>
-  <script src='/bower_components/angular-route/angular-route.min.js'></script>
-  <script src='/bower_components/angular-animate/angular-animate.js'></script>
-  <script src='/bower_components/angular-aria/angular-aria.min.js'></script>
-  <script src='/bower_components/angular-material/angular-material.min.js'></script>
+  <link rel='stylesheet' href='bower_components/angular-material/angular-material.css'>
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <script src='bower_components/angular/angular.js'></script>
+  <script src='bower_components/angular-route/angular-route.min.js'></script>
+  <script src='bower_components/angular-animate/angular-animate.js'></script>
+  <script src='bower_components/angular-aria/angular-aria.min.js'></script>
+  <script src='bower_components/angular-material/angular-material.min.js'></script>
 
 
   <script type="text/javascript" src='scripts/app.js'></script>
@@ -51,11 +51,11 @@
       </a>
 
       <a hide-md show-gt-md layout="row" layout-align="center center" class="nav-item" href='#/contact'>
-          <i class="fa fa-phone fa-3x"></i>
-          <md-tooltip md-direction="right">
-            Contact
-          </md-tooltip>
-        </a>
+        <i class="fa fa-phone fa-3x"></i>
+        <md-tooltip md-direction="right">
+          Contact
+        </md-tooltip>
+      </a>
 
     </md-sidenav>
     <md-content flex class="md-padding bg">
@@ -72,6 +72,104 @@
       </div>
     </md-content>
   </div>
+
+  <script type="text/ng-template" id='home.html'>
+    <div class="home">
+      <h3>
+  <br>
+    BLESSING <br>
+    ORAZULUME
+  </h3>
+    </div>
+  </script>
+
+  <script type="text/ng-template" id="about.html">
+    <div class="home">
+
+      <div layout="row">
+        <div flex="45">
+          <h3>
+        BLESSING <br>
+        ORAZULUME
+      </h3>
+        </div>
+
+        <div layout="row" layout-align="end center">
+          <img src="images/pix.jpg" class='round-img'>
+        </div>
+      </div>
+      <p>"PROGRAMMER, QUIET, ALCOHOLIC"</p>
+      <div>
+        <h3>ABOUT</h3>
+        <div class="home">
+
+          <div layout="row">
+            <div flex="45">
+              <h3>
+        BLESSING <br>
+        ORAZULUME
+      </h3>
+            </div>
+
+            <div layout="row" layout-align="end center">
+              <img src='images/pix.jpg' class='round-img'>
+            </div>
+          </div>
+          <p>"PROGRAMMER, QUIET, ALCOHOLIC"</p>
+          <div>
+            <h3>ABOUT</h3>
+            <p>"I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.” This life is what you make it. No matter what, you're going to mess up sometimes, it's a universal truth. But the good part is you get to decide how you're going to mess it up. Girls will be your friends - they'll act like it anyway. But just remember, some come, some go." </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </script>
+
+  <script type="text/ng-template" id="contact.html">
+    <div layout="row" layout-sm="column">
+      <div flex id='contact1'>
+        <h2><p>CONTACT</p></h2>
+        <div id='textbox' layout="column" layout-align="space-between end">
+          <input type="text" placeholder='your name'>
+          <br>
+          <input type="text" placeholder='your email goes here'>
+          <br>
+          <input type="text" placeholder='your phine'>
+        </div>
+      </div>
+      <div flex id='contact2'>
+        <div>
+          <input type="text" placeholder='your message'>
+        </div>
+      </div>
+
+  </script>
+
+  <script type="text/ng-template" id="portfolio.html">
+    <div id='display'>
+      <h2>PORTFOLIO</h2>
+      <md-grid-list md-cols-sm="1" md-cols-md="2" md-cols-gt-md="6" md-row-height-gt-md="1:1" md-row-height="2:2" md-gutter="12x" md-gutter-gt-sm="8px">
+        <md-grid-tile class="gray" md-rowspan="2" md-colspan="2" ng-repeat='item in projects'>
+          <div id='card'>
+            <md-content>
+              <md-card>
+                <img ng-src="{{item.image}}" alt="Washed Out" class="projectImage">
+                <md-card-content class='content'>
+                  <h2>{{item.name}}</h2>
+                  <p>
+                    {{item.description}}
+                    <a href='{{item.projectUrl}}' target="_blank">Click here</a>
+                  </p>
+                </md-card-content>
+              </md-card>
+            </md-content>
+          </div>
+        </md-grid-tile>
+    </div>
+
+  </script>
 </body>
 
 </html>

@@ -2,16 +2,16 @@ var app = angular.module('myPortfolio', ['ngRoute', 'ngMaterial']).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider
     .when('/home', {
-      templateUrl: 'partials/home.html',
+      templateUrl: 'home.html',
     }).
   when('/about', {
-      templateUrl: 'partials/about.html',
+      templateUrl: 'about.html',
     })
     .when('/portfolio', {
-      templateUrl: 'partials/portfolio.html',
+      templateUrl: 'portfolio.html',
     })
     .when('/contact', {
-      templateUrl: 'partials/contact.html',
+      templateUrl: 'contact.html',
     })
     .otherwise({
       redirectTo: '/home'
