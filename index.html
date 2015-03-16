@@ -21,57 +21,56 @@
 
 <body ng-app='myPortfolio'>
   <div style="height:100%;" ng-controller="portfolioController">
-      <md-sidenav class="md-sidenav-left md-whiteframe-z2 small-nav" md-component-id="left">
+    <md-sidenav class="md-sidenav-left md-whiteframe-z2 small-nav" md-component-id="left">
 
-        <span ng-click="toggleSidenav()" layout="row" layout-align="end start">
+      <span ng-click="toggleSidenav()" layout="row" layout-align="end start">
           <i class="fa fa-angle-double-left fa-2x"></i>
         </span>
 
-        <span hide-md show-gt-md layout="row" layout-align="center center" class="nav-item">
-          <a href='#/home'></a>
-          <i class="fa fa-home fa-3x"></i>
-          <md-tooltip md-direction="right">
-            Home
-          </md-tooltip>
-        </span>
+      <a hide-md show-gt-md layout="row" layout-align="center center" class="nav-item" href='#/home'>
 
-        <a hide-md show-gt-md layout="row" layout-align="center center" class="nav-item"href='#/portfolio'>
-          
-          <i class="fa fa-paint-brush fa-3x"></i>
-          <md-tooltip md-direction="right">
-            Portfolio
-          </md-tooltip>
-        </a>
+        <i class="fa fa-home fa-3x"></i>
+        <md-tooltip md-direction="right">
+          Home
+        </md-tooltip>
+      </a>
 
-        <a hide-md show-gt-md layout="row" layout-align="center center" class="nav-item" href='#/about'>
-          <i class="fa fa-user fa-3x"></i>
-          <md-tooltip md-direction="right">
-            About
-          </md-tooltip>
-        </a>
+      <a hide-md show-gt-md layout="row" layout-align="center center" class="nav-item" href='#/portfolio'>
 
-        <span hide-md show-gt-md layout="row" layout-align="center center" class="nav-item">
-          <a href='#/contact'></a>
+        <i class="fa fa-paint-brush fa-3x"></i>
+        <md-tooltip md-direction="right">
+          Portfolio
+        </md-tooltip>
+      </a>
+
+      <a hide-md show-gt-md layout="row" layout-align="center center" class="nav-item" href='#/about'>
+        <i class="fa fa-user fa-3x"></i>
+        <md-tooltip md-direction="right">
+          About
+        </md-tooltip>
+      </a>
+
+      <a hide-md show-gt-md layout="row" layout-align="center center" class="nav-item" href='#/contact'>
           <i class="fa fa-phone fa-3x"></i>
           <md-tooltip md-direction="right">
             Contact
           </md-tooltip>
-        </span>
+        </a>
 
-      </md-sidenav>
-      <md-content flex class="md-padding bg">
-        <span ng-click="toggleSidenav()">
+    </md-sidenav>
+    <md-content flex class="md-padding bg">
+      <span ng-click="toggleSidenav()">
           <i class="fa fa-bars fa-2x"></i>
           <md-tooltip md-direction="bottom">
             Menu
           </md-tooltip>
         </span>
-        <div layout="column" layout-fill layout-align="top center">
+      <div layout="column" layout-fill layout-align="top center">
 
-        </div>
-        <div ng-view>
-        </div>
-      </md-content>
+      </div>
+      <div ng-view>
+      </div>
+    </md-content>
   </div>
 </body>
 

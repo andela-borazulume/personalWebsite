@@ -1,7 +1,5 @@
 angular.module('myPortfolio').
 controller('portfolioController', ['$scope', 'portfolioFactory', '$mdSidenav',  function($scope, portfolioFactory, $mdSidenav) {
-  $scope.isNavOpen = true;
-
   $scope.toggleSidenav = function() {
   	$mdSidenav('left').toggle();
   };

@@ -16,7 +16,7 @@ i:hover{
 }
 
 .card {
-	min-height: 460px;
+	min-height: 500px;
 }
 
 .content{
@@ -64,6 +64,9 @@ i:hover{
 
 .text a:link {
     text-decoration: none;
+}
+.projectImage{
+	height: 250px;
 }
 
 
@@ -137,6 +140,9 @@ i:hover{
 #contact1 p{
 	padding-top: 85px;
 	text-align: center;
+}
+#display h2 {
+	color: white;
 }
 
 #textbox input{
