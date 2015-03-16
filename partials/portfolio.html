@@ -1,0 +1,25 @@
+<div>
+
+  <md-grid-list md-cols-sm="1" md-cols-md="2" md-cols-gt-md="6" md-row-height-gt-md="1:1" md-row-height="2:2" md-gutter="12x" md-gutter-gt-sm="8px">
+    <md-grid-tile class="gray" md-rowspan="3" md-colspan="2" ng-repeat='item in projects'>
+
+
+
+      <div id='card'>
+
+        <md-content>
+          <md-card>
+            <img ng-src="{{item.image}}" alt="Washed Out" class="img">
+            <md-card-content>
+              <h2>{{item.name}}</h2>
+              <p>
+                {{item.description}}
+                <a href='{{item.projectUrl}}' target="_blank">Click here</a>
+              </p>
+            </md-card-content>
+          </md-card>
+
+        </md-content>
+      </div>
+    </md-grid-tile>
+</div>

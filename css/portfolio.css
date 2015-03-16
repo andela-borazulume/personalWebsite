@@ -1,0 +1,118 @@
+
+
+.img{
+	height: 150px;
+	/*width: 50px;*/
+}
+#card{
+	height: 100px;
+}
+
+.bg {
+	background: url('/images/background6.jpeg');
+	background-size: cover;
+}
+
+#home  {
+	color: #ffffff;
+	text-transform: capitalize;
+	font-size: 50px;
+	margin: 0 auto;
+	font-family: 'Alfa Slab One', cursive;
+}
+#change {
+	color: #ffffff;
+}
+
+.md-sidenav-left{
+	background: url('/images/background2.jpeg');
+	background-size: cover;
+}
+
+.text a{
+	color: white;
+}
+
+.text a:link {
+    text-decoration: none;
+}
+
+#test{
+	height: 100%;
+
+}
+#test img{
+	height: 486px;
+	margin-left:-1em;
+}
+
+#test1{
+	background: #424242;
+		margin-top: -15px;
+}
+#pFirst{
+	padding-left: 20px;
+	padding-top: 133px;
+	color: white;
+}
+
+#pSecond{
+	color: #A4A4A4;
+	padding-left: 20px;
+}
+
+#test2{
+	background-color: #EEEEEE;
+	margin-top: -16px;
+}
+#pThird{
+	color:#838383;
+	padding-top: 122px;
+	padding-left: 20px;
+}
+
+#head{
+	background-color: #616161;
+	color: white;
+	margin-left:-1em;
+	margin-top: -15px;
+}
+#quote {
+	color: white;
+	background-color: #2D2D2D;
+	text-align: center;
+	margin: -19px 0 0 -16px;
+	padding-bottom: 96px;
+	
+}
+
+#quote p{
+	padding-top: 50px;
+}
+
+#contact1{
+	background-color: #EEEEEE;
+	margin-top: -19px;
+	margin-left: -16px;
+}
+#contact1 p{
+	padding-top: 85px;
+	text-align: center;
+}
+
+#textbox input{
+	width: 300px;
+	background: #D8D8D8;
+	padding-left: 30px;
+}
+
+#textbox {
+	padding-left: 390px;
+	padding-bottom: 75px;
+}
+
+#contact2 {
+	background-color: #424242;
+}
+
+

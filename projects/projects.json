@@ -1,0 +1,53 @@
+[{
+    "image": "images/githubApp.png",
+    "projectUrl": "http://andela-borazulume.github.io/gitHub-simple-App",
+    "name": "A simple github app",
+    "description": "A simple github app that searches for users"
+  }, {
+    "image": "images/newsgirlApp.png",
+    "projectUrl": "http://andela-borazulume.github.io/news-girl",
+    "name": "News girl App",
+    "description": "Brings to you news update about things happening in the world"
+  }, {
+    "image": "",
+    "projectUrl": "http://andela-borazulume.github.io/sound-API",
+    "name": "Sound Cloud Comments",
+    "description": "I used sound cloud API to get comments of the users on artists"
+  }, {
+    "image": "images/instagramSearchApp.png",
+    "projectUrl": "http://andela-borazulume.github.io/instagram-s-API",
+    "name": "Instagram Search Engine",
+    "description": "Searches for any tag name"
+  }, {
+    "image": "images/calculator.png",
+    "projectUrl": "http://andela-borazulume.github.io/calculator",
+    "name": "calculator",
+    "description": "A simple calculator that does some basic calculations"
+  }, {
+    "image": "images/laundrySite.png",
+    "projectUrl": "http://andela-borazulume.github.io/project3-website-",
+    "name": "Laundry Website",
+    "description": "A simple Laundry site"
+  }, {
+    "image": "images/madlibsGame.png",
+    "projectUrl": "http://andela-borazulume.github.io/project5",
+    "name": "A simple madlibsGame",
+    "description": "You can play this game to see how it works"
+  }, {
+    "image": "images/myFirstBlog.png",
+    "projectUrl": "http://andela-borazulume.github.io/project1",
+    "name": "My first Blog",
+    "description": "A simple blog"
+  }, {
+    "image": "images/personalBlog.png",
+    "projectUrl": "http://andela-borazulume.github.io/project2-website-",
+    "name": "A personal Blog",
+    "description": "Just a brief description about myself"
+  }, {
+    "image": "images/robot.png",
+    "projectUrl": "http://andela-borazulume.github.io/project4-robot-",
+    "name": "A Robot",
+    "description": "A person dancing with robot"
+  }
+
+]

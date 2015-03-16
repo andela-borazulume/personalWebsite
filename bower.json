@@ -1,0 +1,27 @@
+{
+  "name": "Portfolio-website",
+  "version": "0.0.1",
+  "description": "My first website",
+  "main": "index.html",
+  "keywords": [
+    "portfolio",
+    "projects"
+  ],
+  "authors": [
+    "Blessing",
+    "Orazulume"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "~0.8.3",
+    "angular-route": "~1.3.14"
+  }
+}

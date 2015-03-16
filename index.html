@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Portfolio</title>
+  <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+  <link rel='stylesheet' href='/bower_components/angular-material/angular-material.css'>
+  <script src='/bower_components/angular/angular.js'></script>
+  <script src='/bower_components/angular-route/angular-route.min.js'></script>
+  <script src='/bower_components/angular-animate/angular-animate.js'></script>
+  <script src='/bower_components/angular-aria/angular-aria.min.js'></script>
+  <script src='/bower_components/angular-material/angular-material.min.js'></script>
+
+
+  <script type="text/javascript" src='scripts/app.js'></script>
+  <script type="text/javascript" src='scripts/controller.js'></script>
+  <script type="text/javascript" src='scripts/service.js'></script>
+</head>
+
+<body ng-app='myPortfolio'>
+
+  <div layout="column" style="height:100%;">
+    <section layout="row" flex>
+      <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
+        <!-- <md-toolbar class="md-theme-red">
+          <h1 class="md-toolbar-tools" layout="column" layout-align="space-around end">Portfolio</h1>
+        </md-toolbar> -->
+      		<br>
+      		<br>
+      		<br>
+      		<br>
+      		<br>
+      		<br>
+          <p class='text' hide-md show-gt-md>
+            <a href='#/home' layout="column" layout-align="space-between center">Home</a>
+          </p>
+          <p class='text' id='change'>
+            <a href="#/portfolio" layout="column" layout-align="space-between center">Portfolio</a>
+          </p>
+          <p class='text'>
+            <a href="#/about" layout="column" layout-align="space-between center">About</a>
+          </p>
+          <p class='text'>
+            <a href="#/contact" layout="column" layout-align="space-between center">Contact</a>
+          </p>
+   
+      </md-sidenav>
+      <md-content flex class="md-padding bg">
+        <div layout="column" layout-fill layout-align="top center">
+          <div ng-view>
+          </div>
+        </div>
+      </md-content>
+    </section>
+  </div>
+
+
+
+
+
+  </div>
+</body>
+
+</html>
