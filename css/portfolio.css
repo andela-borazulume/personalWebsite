@@ -16,7 +16,7 @@ i:hover{
 }
 
 .card {
-	min-height: 500px;
+	min-height: 800px;
 }
 
 .content{
@@ -31,16 +31,19 @@ i:hover{
 	font-family: 'Karla', sans-serif;
 }
 
-.home p{
+.home p {
 	font-size: 20px;
-	text-align: center;
-	margin-top: 0;
+}
+
+.home #header {
+	font-family: 'Courgette', cursive;
 }
 
 .round-img{
-	height: 150px;
-	width: 150px;
-	border-radius: 75px;
+	height: 500px;
+	width: 6000px;
+	border-radius: 100px;
+	margin-top: 60px;
 }
 
 .md-sidenav-left{
@@ -72,65 +75,6 @@ i:hover{
 
 /*********************** ids *****************************/
 
-#change {
-	color: #ffffff;
-}
-
-
-
-#test{
-	height: 100%;
-
-}
-#test img{
-	height: 486px;
-	margin-left:-1em;
-}
-
-#test1{
-	background: #424242;
-		margin-top: -15px;
-}
-
-#pFirst{
-	padding-left: 20px;
-	padding-top: 133px;
-	color: white;
-}
-
-#pSecond{
-	color: #A4A4A4;
-	padding-left: 20px;
-}
-
-#test2{
-	background-color: #EEEEEE;
-	margin-top: -16px;
-}
-#pThird{
-	color:#838383;
-	padding-top: 122px;
-	padding-left: 20px;
-}
-
-#head{
-	background-color: #616161;
-	color: white;
-	margin-left:-1em;
-	margin-top: -15px;
-}
-#quote {
-	color: white;
-	background-color: #2D2D2D;
-	text-align: center;
-	margin: -19px 0 0 -16px;
-	padding-bottom: 96px;
-	
-}
-
-#quote p{
-	padding-top: 50px;
-}
 
 #contact1{
 	background-color: #EEEEEE;
@@ -159,3 +103,25 @@ i:hover{
 #contact2 {
 	background-color: #424242;
 }
+
+#front div h3, h6{
+	text-align: center;
+}
+
+#front div h3 {
+	margin: 0;
+	padding-top: 200px;
+}
+
+#front div h6 {
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
