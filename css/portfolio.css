@@ -1,127 +1,126 @@
 /********************** native elements ***********************/
-i{
-	color: white;
-	padding: 10px;
-}
 
-i:hover{
-	cursor: pointer;
+i {
+  color: white;
+  padding: 10px;
 }
-
+i:hover {
+  cursor: pointer;
+}
 /********************* classes ****************************/
 
 .bg {
-	background: url('../images/bg.jpg');
-	background-size: cover;
+  background: url('../images/bg.jpg');
+  background-size: cover;
 }
-
 .card {
-	min-height: 800px;
+  min-height: 800px;
+}
+.content {
+  height: 70px;
+}
+.contactCenter {
+  color: white;
+  padding-left: 400px;
+  padding-right: 350px;
 }
 
-.content{
-	height: 70px;
+.home {
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 50px;
+  margin: 0 auto;
+  font-family: 'Karla', sans-serif;
 }
-
-.home  {
-	color: #ffffff;
-	text-transform: capitalize;
-	font-size: 50px;
-	margin: 0 auto;
-	font-family: 'Karla', sans-serif;
-}
-
 .home p {
-	font-size: 20px;
+  font-size: 20px;
 }
-
 .home #header {
-	font-family: 'Courgette', cursive;
+  font-family: 'Courgette', cursive;
 }
-
-.round-img{
-	height: 500px;
-	width: 6000px;
-	border-radius: 100px;
-	margin-top: 60px;
+.round-img {
+  height: 400px;
+  width: 500px;
+  border-radius: 100px;
+  margin-top: 100px;
 }
-
-.md-sidenav-left{
-	background: url('../images/background2.jpeg');
-	background-size: cover;
+.md-sidenav-left {
+  background: url('../images/background2.jpeg');
+  background-size: cover;
 }
-
 .nav-item {
-	padding-top: 15px;
-	padding-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-
 .small-nav {
-	min-width: 100px;
-	max-width: 100px;
+  min-width: 100px;
+  max-width: 100px;
 }
-
-.text a{
-	color: white;
+.text a {
+  color: white;
 }
-
 .text a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
-.projectImage{
-	height: 250px;
+.projectImage {
+  height: 250px;
 }
-
-
 /*********************** ids *****************************/
 
-
-#contact1{
-	background-color: #EEEEEE;
-	margin-top: -19px;
-	margin-left: -16px;
+#contact1 {
+  background-color: #EEEEEE;
+  margin-top: -19px;
+  margin-left: -16px;
 }
-#contact1 p{
-	padding-top: 85px;
-	text-align: center;
+#contact1 p {
+  padding-top: 85px;
+  text-align: center;
 }
 #display h2 {
-	color: white;
+  color: white;
 }
-
-#textbox input{
-	width: 300px;
-	background: #D8D8D8;
-	padding-left: 30px;
+#textbox input {
+  width: 300px;
+  background: #D8D8D8;
+  padding-left: 30px;
 }
-
 #textbox {
-	padding-left: 390px;
-	padding-bottom: 75px;
+  padding-left: 390px;
+  padding-bottom: 75px;
 }
-
 #contact2 {
-	background-color: #424242;
+  background-color: #424242;
 }
-
-#front div h3, h6{
-	text-align: center;
+#front div h3, h6 {
+  text-align: center;
 }
-
 #front div h3 {
-	margin: 0;
-	padding-top: 200px;
+  margin: 0;
+  padding-top: 200px;
 }
-
 #front div h6 {
-	margin-top: 30px;
+  margin-top: 30px;
 }
-
-
-
-
-
-
-
-
-
+.footer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  max-height: 250px;
+  font-size: inherit;
+  font-weight: normal;
+  padding: 0 16px;
+  margin: 0;
+  background-color: #B0B0B0;
+  color: #434343;
+}
+.footer img {
+  height: 30px;
+  width: 30px;
+}
